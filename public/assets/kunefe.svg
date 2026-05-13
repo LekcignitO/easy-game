@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <circle cx="32" cy="32" r="28" fill="#DAA520"/>
+  <circle cx="32" cy="32" r="24" fill="#F4A460"/>
+  <!-- Cheese center -->
+  <circle cx="32" cy="32" r="16" fill="#FFF8DC"/>
+  <!-- Pistachio top -->
+  <circle cx="32" cy="32" r="8" fill="#4CAF50"/>
+  <circle cx="28" cy="28" r="3" fill="#2E8B57"/>
+  <circle cx="36" cy="28" r="3" fill="#2E8B57"/>
+  <circle cx="32" cy="36" r="3" fill="#2E8B57"/>
+</svg>

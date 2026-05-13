@@ -8,10 +8,6 @@ export class BootScene extends Phaser.Scene {
     }
 
     preload() {
-        // Here we could load game assets.
-        // For now, we will draw geometric shapes in GameScene instead of loading images to keep it simple and asset-free.
-
-        // Show loading text
         const width = this.cameras.main.width;
         const height = this.cameras.main.height;
 
@@ -25,6 +21,14 @@ export class BootScene extends Phaser.Scene {
             }
         });
         loadingText.setOrigin(0.5, 0.5);
+
+        // Load assets
+        this.load.image('bg', 'assets/bg.svg');
+        this.load.image('type_0', 'assets/lokum_pink.svg');
+        this.load.image('type_1', 'assets/baklava.svg');
+        this.load.image('type_2', 'assets/lokum_green.svg');
+        this.load.image('type_3', 'assets/tulumba.svg');
+        this.load.image('type_4', 'assets/kunefe.svg');
     }
 
     async create() {
